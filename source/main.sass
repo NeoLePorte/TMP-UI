@@ -1,7 +1,57 @@
 @use 'mixins'
+$primary-color: #00945f
+$button-color: #e97300
 
 header
     @extend %center-container
-    
+    margin: 1.400em 4.625em
+
+
+#main-container
+    font-family: 'Arial, Helvetica, sans-serif'
+
+#top-img
+    @extend %center-container
+    // width: 100%
+    // height: 100%
+#top-img
+        img
+            height: 201px
+            flex-grow: 1
+            flex-basis: auto
+.divider
+    margin-top: 0
+    color: $primary-color
+    background-color: $primary-color
+    width: 20%
+    border: 1px solid $primary-color
+
+.center-header-text
+    @extend %center-container
+    font-size: 28px
+    color: $primary-color
+.center-header-text
+        p
+            margin-bottom: 15px
+            margin-top: 31px
+.top-text
+    @extend %center-container
+
+.top-text
+        p
+            line-height: 1.8em
+            margin: 1px 35px 40px 18px
+.button-center
+    @extend %center-container
+
+.button-center
+        a
+            padding: 6px 20px
+            color: white
+            background-color: $button-color
+            font: 20px Arial
+            text-decoration: none
+            &:hover
+                cursor: pointer
 
 
