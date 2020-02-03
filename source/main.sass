@@ -8,8 +8,9 @@ header
     @extend %center-container
 #main-header-logo-desktop
     display: none
-
-
+.flex-wrap
+    display: flex
+    justify-content: center
 #main-container
     @extend %center-container
     flex-direction: column
@@ -17,7 +18,6 @@ header
     color: #888888
     line-height: 1.8em
     overflow: hidden
-    // margin: 1px 25px 40px 18px
 
 #top-img
     @extend %center-container
@@ -180,7 +180,10 @@ footer
     @extend %center-container
     justify-content: flex-start
     margin-top: 20px
-    color: #000
+.footer-align
+        a
+            color: #000000
+            font-weight: bold
 
 .vl-footer
     border-left: 1px solid #000

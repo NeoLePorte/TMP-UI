@@ -22,12 +22,18 @@ header {
     display: none
 }
 
+.flex-wrap {
+    display: flex;
+    justify-content: center;
+}
+
 #main-container {
     flex-direction: column;
     font-family: "Arial, Helvetica, sans-serif";
     color: #888;
     line-height: 1.8em;
-    overflow: hidden
+    overflow: hidden;
+    max-width: 1265px;
 }
 
 #top-img {
@@ -209,6 +215,9 @@ footer p {
 .footer-align {
     justify-content: flex-start;
     margin-top: 20px;
+    font-weight: bold;
+}
+.footer-align a {
     color: #000
 }
 
