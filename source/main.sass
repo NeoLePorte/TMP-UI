@@ -14,7 +14,7 @@ header
     @extend %center-container
     flex-direction: column
     font-family: 'Arial, Helvetica, sans-serif'
-    color:  #888888
+    color: #888888
     line-height: 1.8em
     overflow: hidden
     // margin: 1px 25px 40px 18px
@@ -29,20 +29,20 @@ header
     display: none
 
 #top-img
-        img
-            width: 100%
-            height: auto
-            flex-grow: 1
-            flex-basis: auto
+    img
+        width: 100%
+        height: auto
+        flex-grow: 1
+        flex-basis: auto
 #our-investment-margin
-        margin: 28px 0px 10px
+    margin: 28px 0px 10px
             
 #citizens-adv-text-margin
     text-align: center
 #citizens-adv-text-margin
-        p
-            line-height: 1em
-            margin: 35px 0px 10px
+    p
+        line-height: 1em
+        margin: 35px 0px 10px
 
 #company-pitch-container
     @extend %center-container
@@ -72,44 +72,44 @@ header
     
 
 .top-text
-        p
-            font-size: 18px
-            line-height: 1.8em
-            margin: 1px 25px 40px 18px
+    p
+        font-size: 18px
+        line-height: 1.8em
+        margin: 1px 25px 40px 18px
 .button-center
     @extend %center-container
 
 .button-center
-        a
-            padding: 6px 20px
-            color: white
-            background-color: $button-color
-            font: 20px Arial
-            text-decoration: none
-            &:hover
-                cursor: pointer
+    a
+        padding: 6px 20px
+        color: white
+        background-color: $button-color
+        font: 20px Arial
+        text-decoration: none
+        &:hover
+            cursor: pointer
 
 .company-pitch-block
-        p:nth-child(1)
-            margin: 10px 0px
-        p:nth-child(2)
-            line-height: 1.8em
-            margin: 10px 0px
-        a
-            display: block
-            text-decoration: none
-            padding-bottom: 10px
+    p:nth-child(1)
+        margin: 10px 0px
+    p:nth-child(2)
+        line-height: 1.8em
+        margin: 10px 0px
+    a
+        display: block
+        text-decoration: none
+        padding-bottom: 10px
 
 .company-pitch-header
     font-size: 23px
     color: $primary-color
     margin: 5px 0px 0px
 .item1
-            a
-                color: #759B24
+    a
+        color: #759B24
 .item1
-        p:nth-child(2)
-            margin-bottom: 0px
+    p:nth-child(2)
+        margin-bottom: 0px
         
 .arrow
     border: solid #000
@@ -133,13 +133,13 @@ header
     line-height: 1.722
     
 .home-loan-text
-        p
-            margin: 0px 16px 0px
-            background-color: #EBF7F5
-        p:nth-child(1)
-            background-color: $primary-color
-        p:nth-child(2)
-            padding: 10px 14px 10px
+    p
+        margin: 0px 16px 0px
+        background-color: #EBF7F5
+    p:nth-child(1)
+        background-color: $primary-color
+    p:nth-child(2)
+        padding: 10px 14px 10px
 
 #quotes-section
     @extend %center-container
@@ -149,11 +149,11 @@ header
     font-style: italic
 
 .quote-block
-        p
-            color: #666666
-            margin-top: 0px
-        p:nth-child(3)
-            color: $primary-color
+    p
+        color: #666666
+        margin-top: 0px
+    p:nth-child(3)
+        color: $primary-color
 
 
 .quote-img
@@ -173,8 +173,8 @@ footer
     margin: 0px 16px
     padding-bottom: 30px
 footer
-        p
-            margin-top: 15px
+    p
+        margin-top: 15px
 
 .footer-align
     @extend %center-container
@@ -192,17 +192,18 @@ footer
 
 
 #social-icons
-        img
-            &:nth-child(n+2)
-                margin-left: 5px
+    img
+        &:nth-child(n+2)
+            margin-left: 5px
 
 @media screen and ( min-width: 655px)
     #main-header-logo-desktop
         display: flex
         width: 100%
         flex-direction: row
-        padding: 35px
-        justify-content: center
+        justify-content: flex-start
+        padding: 30px 30px 25px 0px
+        margin: 0px 0px 25px 80px
 
     #main-header-logo
         display: none        
@@ -213,11 +214,11 @@ footer
         align-items: center
         width: 100%
     #top-img-desktop
-            img
-                width: 100%
-                height: auto
-                flex-grow: 1
-                flex-basis: auto
+        img
+            width: 100%
+            height: auto
+            flex-grow: 1
+            flex-basis: auto
     #top-img
         display: none
 
@@ -264,8 +265,8 @@ footer
     .home-loan-header
         height: 50px
     .home-loan-text
-            p:nth-child(2)
-                padding: 20px 50px 20px
+        p:nth-child(2)
+            padding: 20px 50px 20px
     footer
         margin: 0px 35px
         font-size: 12px
@@ -273,12 +274,9 @@ footer
         
     @media screen and ( min-width: 1279px  )
     #main-header-logo-desktop
-        justify-content: left
-        padding: 30px 30px 30px 0px
-
-    #main-header-logo-desktop
-            img
-                align-self: left
+        justify-content: flex-start
+        padding: 30px 30px 25px 0px
+        margin: 0px 0px 25px 80px
 
                 
 
