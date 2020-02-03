@@ -6,6 +6,8 @@ header
     
 #main-header-logo
     @extend %center-container
+#main-header-logo-desktop
+    display: none
 
 
 #main-container
@@ -14,12 +16,18 @@ header
     font-family: 'Arial, Helvetica, sans-serif'
     color:  #888888
     line-height: 1.8em
+    overflow: hidden
     // margin: 1px 25px 40px 18px
 
 #top-img
     @extend %center-container
     width: 100%
     height: 100%
+
+#top-img-desktop
+    @extend %center-container
+    display: none
+
 #top-img
         img
             width: 100%
@@ -27,23 +35,20 @@ header
             flex-grow: 1
             flex-basis: auto
 #our-investment-margin
-        p
-            margin: 28px 0px 1.5px
+        margin: 28px 0px 10px
+            
 #citizens-adv-text-margin
-    max-width: 299px
-    min-width: 183px
+    text-align: center
 #citizens-adv-text-margin
         p
             line-height: 1em
-        p
-            margin: 35px 0px 0px
-        p:nth-child(2)
-            margin: 0px 0px 10px
+            margin: 35px 0px 10px
 
 #company-pitch-container
     @extend %center-container
     flex-direction: column
     margin: 1px 25px 20px 18px
+    
 
 .divider
     color: $primary-color
@@ -60,6 +65,7 @@ header
     @extend %center-container
     font-size: 28px
     color: $primary-color
+    margin: 1px
 
 .top-text
     @extend %center-container
@@ -67,6 +73,7 @@ header
 
 .top-text
         p
+            font-size: 18px
             line-height: 1.8em
             margin: 1px 25px 40px 18px
 .button-center
@@ -97,19 +104,19 @@ header
     font-size: 23px
     color: $primary-color
     margin: 5px 0px 0px
+.item1
+            a
+                color: #759B24
+.item1
+        p:nth-child(2)
+            margin-bottom: 0px
         
 .arrow
-    border: solid black
+    border: solid #000
     border-width: 0 1px 1px 0
     display: inline-block
     padding: 4px
     transform: rotate(-45deg)
-
-// .home-loan-section
-//     @extend %center-container
-//     flex-wrap: wrap
-    
-//     margin-bottom: 30px
 
 .home-loan-header
     color: white
@@ -133,6 +140,154 @@ header
             background-color: $primary-color
         p:nth-child(2)
             padding: 10px 14px 10px
+
+#quotes-section
+    @extend %center-container
+    flex-direction: column
+    width: 160px
+    text-align: center
+    font-style: italic
+
+.quote-block
+        p
+            color: #666666
+            margin-top: 0px
+        p:nth-child(3)
+            color: $primary-color
+
+
+.quote-img
+    background: url('/dist/assets/quote_mobile.png') no-repeat top left
+
+.footer-divider
+    color: $primary-color
+    background-color: $primary-color
+    width: 100%
+    border: 0.5px solid $primary-color
+    margin-top: 50px
+
+footer
+    font-size: 11px
+    line-height: 1.2
+    justify-content: left
+    margin: 0px 16px
+    padding-bottom: 30px
+footer
+        p
+            margin-top: 15px
+
+.footer-align
+    @extend %center-container
+    justify-content: flex-start
+    margin-top: 20px
+    color: #000
+
+.vl-footer
+    border-left: 1px solid #000
+    height: 10px
+    margin: 0px 8px
+
+#social-icons
+    margin-top: 30px
+
+
+#social-icons
+        img
+            &:nth-child(n+2)
+                margin-left: 5px
+
+@media screen and ( min-width: 655px)
+    #main-header-logo-desktop
+        display: flex
+        width: 100%
+        flex-direction: row
+        padding: 35px
+        justify-content: center
+
+    #main-header-logo
+        display: none        
+    #top-img-desktop
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+        width: 100%
+    #top-img-desktop
+            img
+                width: 100%
+                height: auto
+                flex-grow: 1
+                flex-basis: auto
+    #top-img
+        display: none
+
+    #company-pitch-container
+        flex-basis: auto
+    
+    .desktop-row
+        display: flex
+        // justify-content: row
+       
+    .company-pitch-divider
+        display: none
+    .vl-pitch-top
+        border-left: 1.3px solid #abab
+        height: 155px
+        margin: 4px 8px 0px
+        align-self: center
+        
+        align-self: center
+    .vl-pitch-bottom
+        border-left: 1.3px solid #abab
+        height: 133px
+        margin: 60px 8px
+        align-self: center
+    
+
+    #citizens-adv-text-margin
+        width: 100%
+
+    .company-pitch-block
+        margin: 40px
+        font-size: 15px
+        width: 100%
+
+    #quotes-section
+        justify-content: space-around
+        flex-direction: row
+        width: 100%
+        align-items: baseline
+    .quote-block
+        width: 300px
+    .home-loan-section
+        margin: 0px 20px 30px
+    .home-loan-header
+        height: 50px
+    .home-loan-text
+            p:nth-child(2)
+                padding: 20px 50px 20px
+    footer
+        margin: 0px 35px
+        font-size: 12px
+                
+        
+    @media screen and ( min-width: 1279px  )
+    #main-header-logo-desktop
+        justify-content: left
+        padding: 30px 30px 30px 0px
+
+    #main-header-logo-desktop
+            img
+                align-self: left
+
+                
+
+
+
+
+
+
+
 
 
 
