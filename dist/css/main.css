@@ -1,1 +1,335 @@
-#main-header-logo,#main-container,#top-img,#top-img-desktop,#company-pitch-container,.center-header-text,.top-text,.button-center,#quotes-section,.footer-align{display:flex;flex-direction:row;justify-content:center;align-items:center}header{margin:1.3em 4.625em}#main-header-logo-desktop{display:none}#main-container{flex-direction:column;font-family:"Arial, Helvetica, sans-serif";color:#888;line-height:1.8em;overflow:hidden}#top-img{width:100%;height:100%}#top-img-desktop{display:none}#top-img img{width:100%;height:auto;flex-grow:1;flex-basis:auto}#our-investment-margin{margin:28px 0px 10px}#citizens-adv-text-margin{text-align:center}#citizens-adv-text-margin p{line-height:1em;margin:35px 0px 10px}#company-pitch-container{flex-direction:column;margin:1px 25px 20px 18px}.divider{color:#00945f;background-color:#00945f;width:65px;border:1px solid #00945f}.word-wrap{flex-wrap:wrap;width:90%;padding:0}.center-header-text{font-size:28px;color:#00945f;margin:1px}.top-text p{font-size:18px;line-height:1.8em;margin:1px 25px 40px 18px}.button-center a{padding:6px 20px;color:#fff;background-color:#e97300;font:20px Arial;text-decoration:none}.button-center a:hover{cursor:pointer}.company-pitch-block p:nth-child(1){margin:10px 0px}.company-pitch-block p:nth-child(2){line-height:1.8em;margin:10px 0px}.company-pitch-block a{display:block;text-decoration:none;padding-bottom:10px}.company-pitch-header{font-size:23px;color:#00945f;margin:5px 0px 0px}.item1 a{color:#759b24}.item1 p:nth-child(2){margin-bottom:0px}.arrow{border:solid #000;border-width:0 1px 1px 0;display:inline-block;padding:4px;transform:rotate(-45deg)}.home-loan-header{color:#fff;text-align:center;align-self:center;font-size:23px;line-height:1.292;width:auto;height:81px;background-color:#00945f}.home-loan-text{margin-bottom:24px;line-height:1.722}.home-loan-text p{margin:0px 16px 0px;background-color:#ebf7f5}.home-loan-text p:nth-child(1){background-color:#00945f}.home-loan-text p:nth-child(2){padding:10px 14px 10px}#quotes-section{flex-direction:column;width:160px;text-align:center;font-style:italic}.quote-block p{color:#666;margin-top:0px}.quote-block p:nth-child(3){color:#00945f}.quote-img{background:url("/dist/assets/quote_mobile.png") no-repeat top left}.footer-divider{color:#00945f;background-color:#00945f;width:100%;border:.5px solid #00945f;margin-top:50px}footer{font-size:11px;line-height:1.2;justify-content:left;margin:0px 16px;padding-bottom:30px}footer p{margin-top:15px}.footer-align{justify-content:flex-start;margin-top:20px;color:#000}.vl-footer{border-left:1px solid #000;height:10px;margin:0px 8px}#social-icons{margin-top:30px}#social-icons img:nth-child(n+2){margin-left:5px}@media screen and (min-width: 655px){#main-header-logo-desktop{display:flex;width:100%;flex-direction:row;justify-content:flex-start;padding:30px 30px 25px 0px;margin:0px 0px 25px 80px}#main-header-logo{display:none}#top-img-desktop{display:flex;flex-direction:row;justify-content:center;align-items:center;width:100%}#top-img-desktop img{width:100%;height:auto;flex-grow:1;flex-basis:auto}#top-img{display:none}#company-pitch-container{flex-basis:auto}.desktop-row{display:flex}.company-pitch-divider{display:none}.vl-pitch-top{border-left:1.3px solid #abab;height:155px;margin:4px 8px 0px;align-self:center;align-self:center}.vl-pitch-bottom{border-left:1.3px solid #abab;height:133px;margin:60px 8px;align-self:center}#citizens-adv-text-margin{width:100%}.company-pitch-block{margin:40px;font-size:15px;width:100%}#quotes-section{justify-content:space-around;flex-direction:row;width:100%;align-items:baseline}.quote-block{width:300px}.home-loan-section{margin:0px 20px 30px}.home-loan-header{height:50px}.home-loan-text p:nth-child(2){padding:20px 50px 20px}footer{margin:0px 35px;font-size:12px}#main-header-logo-desktop{justify-content:flex-start;padding:30px 30px 25px 0px;margin:0px 0px 25px 80px}}/*# sourceMappingURL=main.css.map */
+#main-header-logo,
+#main-container,
+#top-img,
+#top-img-desktop,
+#company-pitch-container,
+.center-header-text,
+.top-text,
+.button-center,
+#quotes-section,
+.footer-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+header {
+    margin: 1.3em 4.625em
+}
+
+#main-header-logo-desktop {
+    display: none
+}
+
+#main-container {
+    flex-direction: column;
+    font-family: "Arial, Helvetica, sans-serif";
+    color: #888;
+    line-height: 1.8em;
+    overflow: hidden
+}
+
+#top-img {
+    width: 100%;
+    height: 100%
+}
+
+#top-img-desktop {
+    display: none
+}
+
+#top-img img {
+    width: 100%;
+    height: auto;
+    flex-grow: 1;
+    flex-basis: auto
+}
+
+#our-investment-margin {
+    margin: 28px 0px 10px
+}
+
+#citizens-adv-text-margin {
+    text-align: center
+}
+
+#citizens-adv-text-margin p {
+    line-height: 1em;
+    margin: 35px 0px 10px
+}
+
+#company-pitch-container {
+    flex-direction: column;
+    margin: 1px 25px 20px 18px
+}
+
+.divider {
+    color: #00945f;
+    background-color: #00945f;
+    width: 65px;
+    border: 1px solid #00945f
+}
+
+.word-wrap {
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 0
+}
+
+.center-header-text {
+    font-size: 28px;
+    color: #00945f;
+    margin: 1px
+}
+
+.top-text p {
+    font-size: 18px;
+    line-height: 1.8em;
+    margin: 1px 25px 40px 18px
+}
+
+.button-center a {
+    padding: 6px 20px;
+    color: #fff;
+    background-color: #e97300;
+    font: 20px Arial;
+    text-decoration: none
+}
+
+.button-center a:hover {
+    cursor: pointer
+}
+
+.company-pitch-block p:nth-child(1) {
+    margin: 10px 0px
+}
+
+.company-pitch-block p:nth-child(2) {
+    line-height: 1.8em;
+    margin: 10px 0px
+}
+
+.company-pitch-block a {
+    display: block;
+    text-decoration: none;
+    padding-bottom: 10px
+}
+
+.company-pitch-header {
+    font-size: 23px;
+    color: #00945f;
+    margin: 5px 0px 0px
+}
+
+.item1 a {
+    color: #759b24
+}
+
+.item1 p:nth-child(2) {
+    margin-bottom: 0px
+}
+
+.arrow {
+    border: solid #759b24;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(-45deg)
+}
+
+.home-loan-header {
+    color: #fff;
+    text-align: center;
+    align-self: center;
+    font-size: 23px;
+    line-height: 1.292;
+    width: auto;
+    height: 81px;
+    background-color: #00945f
+}
+
+.home-loan-text {
+    margin-bottom: 24px;
+    line-height: 1.722
+}
+
+.home-loan-text p {
+    margin: 0px 16px 0px;
+    background-color: #ebf7f5
+}
+
+.home-loan-text p:nth-child(1) {
+    background-color: #00945f
+}
+
+.home-loan-text p:nth-child(2) {
+    padding: 10px 14px 10px
+}
+
+#quotes-section {
+    flex-direction: column;
+    width: 160px;
+    text-align: center;
+    font-style: italic
+}
+
+.quote-block p {
+    color: #666;
+    margin-top: 0px
+}
+
+.quote-block p:nth-child(3) {
+    color: #00945f
+}
+
+.quote-img {
+    background: url("/dist/assets/quote_mobile.png") no-repeat top left
+}
+
+.footer-divider {
+    color: #00945f;
+    background-color: #00945f;
+    width: 100%;
+    border: .5px solid #00945f;
+    margin-top: 50px
+}
+
+footer {
+    font-size: 11px;
+    line-height: 1.2;
+    justify-content: left;
+    margin: 0px 16px;
+    padding-bottom: 30px
+}
+
+footer p {
+    margin-top: 15px
+}
+
+.footer-align {
+    justify-content: flex-start;
+    margin-top: 20px;
+    color: #000
+}
+
+.vl-footer {
+    border-left: 1px solid #000;
+    height: 10px;
+    margin: 0px 8px
+}
+
+#social-icons {
+    margin-top: 30px
+}
+
+#social-icons img:nth-child(n+2) {
+    margin-left: 5px
+}
+
+@media screen and (min-width: 655px) {
+    #main-header-logo-desktop {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 30px 30px 25px 0px;
+        margin: 0px 0px 25px 80px
+    }
+
+    #main-header-logo {
+        display: none
+    }
+
+    #top-img-desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%
+    }
+
+    #top-img-desktop img {
+        width: 100%;
+        height: auto;
+        flex-grow: 1;
+        flex-basis: auto
+    }
+
+    #top-img {
+        display: none
+    }
+
+    #company-pitch-container {
+        flex-basis: auto
+    }
+
+    .desktop-row {
+        display: flex
+    }
+
+    .company-pitch-divider {
+        display: none
+    }
+
+    .vl-pitch-top {
+        border-left: 1.3px solid #abab;
+        height: 155px;
+        margin: 4px 8px 0px;
+        align-self: center;
+        align-self: center
+    }
+
+    .vl-pitch-bottom {
+        border-left: 1.3px solid #abab;
+        height: 133px;
+        margin: 60px 8px;
+        align-self: center
+    }
+
+    #citizens-adv-text-margin {
+        width: 100%
+    }
+
+    .company-pitch-block {
+        margin: 40px;
+        font-size: 15px;
+        width: 100%
+    }
+
+    #quotes-section {
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+        align-items: baseline
+    }
+
+    .quote-block {
+        width: 300px
+    }
+
+    .home-loan-section {
+        margin: 0px 20px 30px
+    }
+
+    .home-loan-header {
+        height: 50px
+    }
+
+    .home-loan-text p:nth-child(2) {
+        padding: 20px 50px 20px
+    }
+
+    footer {
+        margin: 0px 35px;
+        font-size: 12px
+    }
+
+    #main-header-logo-desktop {
+        justify-content: flex-start;
+        padding: 30px 30px 25px 0px;
+        margin: 0px 0px 25px 80px
+    }
+}
+
+/*# sourceMappingURL=main.css.map */
