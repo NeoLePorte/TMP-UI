@@ -22,10 +22,7 @@ header {
     display: none
 }
 
-.flex-wrap {
-    display: flex;
-    justify-content: center;
-}
+
 
 #main-container {
     flex-direction: column;
@@ -34,6 +31,7 @@ header {
     line-height: 1.8em;
     overflow: hidden;
     max-width: 1265px;
+    min-width: 320px
 }
 
 #top-img {
@@ -243,6 +241,10 @@ footer p {
         justify-content: flex-start;
         padding: 30px 30px 25px 0px;
         margin: 0px 0px 25px 80px
+    }
+    .flex-wrap {
+        display: flex;
+        justify-content: center;
     }
 
     #main-header-logo {
